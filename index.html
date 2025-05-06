@@ -13,8 +13,6 @@
     body {
       font-family: 'Inter', sans-serif;
     }
-
-
   </style>
 </head>
 <body class="bg-[#d9e9f9] text-[#0c1a5f] min-h-screen">
@@ -102,7 +100,7 @@
       <span>YouTube</span>
      </div>
      <div class="bg-white bg-opacity-20 rounded-md p-3 text-xs text-[#0c1a5f] space-y-2">
-      <div class="font-semibold border-b border-[#0c1a5f] pb-1">
+      <div class="font-semibold border-b border-[#0c1a5f] pb-1"><button id="RegisterBtn">Register Now</button>
       </div>
       <div class="flex items-center space-x-2 opacity-70">
        <i class="fas fa-lock"></i>
@@ -112,10 +110,8 @@
        </div>
       </div>
       <div>Welcome! To join the event, please register below.</div>
-      <button id="RegisterBtn" class="bg-[#0c1a5f] text-white text-xs font-semibold rounded px-3 py-1 w-max">
-        REGISTER 
-      </button>
-     </div>
+      <button id="registerBtn" class="bg-[#0c1a5f] text-white text-xs font-semibold rounded px-4 py-1 w-full max-w-xs">Register</button>
+     </div>to
      <div class="text-xs space-y-3 max-w-xl">
       <div class="font-semibold border-b border-[#0c1a5f] pb-1">About Event</div>
       <p>🚀 Microsoft SDE Secrets: Tips by Manjot Singh for Landing Top Placements 🚀</p>
@@ -127,16 +123,13 @@
   </div>
 <script>
 // JavaScript to handle the register button click event
-
 document.getElementById('registerBtn').addEventListener('click', function() {
     window.location.href = 'reg.html'; // Replace with your desired URL
-});
-document.getElementById('RegisterBtn').addEventListener('click', function() {
+});document.getElementById('RegisterBtn').addEventListener('click', function() {
     window.location.href = 'reg.html'; // Replace with your desired URL
 });
-
 document.getElementById('sign-in').addEventListener('click', function() {
-    window.location.href = 'reg.html';  // Replace with your desired URL
+    window.location.href = 'reg.html';// Replace with your desired URL
 });
 </script>
  
