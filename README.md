@@ -1,7 +1,3 @@
-Here's a professional and comprehensive `README.md` file for your project:
-
----
-
 # 🎯 Microsoft SDE Secrets: Tips by Manjot Singh for Landing Top Placements
 
 Welcome to the **Microsoft SDE Secrets** web project! This platform is built to host and manage a virtual event conducted by **Manjot Singh**, aimed at guiding students through the process of cracking placement interviews, with a special focus on securing Software Development Engineer (SDE) roles at top-tier companies like Microsoft.
